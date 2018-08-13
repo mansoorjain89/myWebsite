@@ -1,0 +1,35 @@
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.li1 {
+    float: right;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+h1 {
+  float: left;
+}
+
+#myName {
+  position: relative;
+  left: 1px;
+}
+
+img {
+    height: 600px;
+    display: block;
+    margin-top: 2%;
+    margin-left: 75%;
+    margin-right: auto;
+    width: 30%;
+    opacity: 0.4;
+}
