@@ -16,6 +16,18 @@ def create_app(test_config=None):
     def articles():
         return render_template("blog/articles.html")
 
+    @app.route('/blog/kickBallKissCup.html')
+    def kickBallKissCup():
+        return render_template("blog/kickBallKissCup.html")
+
+    @app.route('/blog/mavericBookReview.html')
+    def mavericBookReview():
+        return render_template("blog/mavericBookReview.html")
+
+    @app.route('/blog/mavericTrek.html')
+    def mavericTrek():
+        return render_template("blog/mavericTrek.html")
+
     @app.after_request
     def after_request(response):
         response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"

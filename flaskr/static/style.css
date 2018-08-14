@@ -31,5 +31,50 @@ img {
     margin-left: 75%;
     margin-right: auto;
     width: 30%;
-    opacity: 0.4;
+    opacity: 0.7;
+}
+
+.train1 {
+  padding: 50px 35%;
+}
+
+.train1 ul {
+  list-style: none;
+  position: relative;
+  padding: 0;
+}
+
+.train1 ul::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ddd;
+}
+
+.train1 ul li {
+  padding: 10px 15px;
+}
+
+.train1 ul li span {
+  color: inherit;
+  position: absolute;
+  left: -12px;
+  font-size: 15px;
+  background-color: #002B36;
+  padding: 5px 0;
+}
+
+.train1 ul li div {
+  padding: 25px 50px;
+  white-space: nowrap;
+}
+
+.alignCenter {
+  margin: auto;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
 }
